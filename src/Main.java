@@ -27,8 +27,8 @@ public class Main {
         }
         //задание 3
         System.out.println("задание 3");
-        int year = 1992;
-        if ((year > 1584) && (year % 4 == 0) || (year / 400 == 0) && (year % 100 != 0)) {
+        int year = 1900;
+        if ((year > 1584) && (year % 4 == 0) && (year % 400 == 0) && (year % 100 != 0)) {
             System.out.println(year + " является высокосным");
         } else {
             System.out.println(year + " не является высокосным");
@@ -43,7 +43,7 @@ public class Main {
             System.out.println("на доставку потребуется два дня");
         }
         if ((diliveryDistance > 60) && (diliveryDistance <= 100)) {
-            System.out.println("на досьтавку потребуется три дня");
+            System.out.println("на доставку потребуется три дня");
         }
         //задача 5
         System.out.println("задание 5");
