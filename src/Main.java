@@ -27,8 +27,8 @@ public class Main {
         }
         //задание 3
         System.out.println("задание 3");
-        int year = 1900;
-        if ((year > 1584) && (year % 4 == 0) && (year % 400 == 0) && (year % 100 != 0)) {
+        int year = 1609;
+        if ((year>1584) && year%4==0 && year%100!=0 || year%400==0) {
             System.out.println(year + " является высокосным");
         } else {
             System.out.println(year + " не является высокосным");
